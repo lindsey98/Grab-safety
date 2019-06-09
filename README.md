@@ -17,6 +17,20 @@ We aim to categorize car trips as being dangerous or normal based on a set of fe
 
 
 ## Feature extraction
+- Acceleration-based features:
+
+  We first calculate the resultant acceleration by taking the l2 norm of acc_x, acc_y and acc_z.
+  
+- Gyroscope-based features:
+
+  We first calculate the resultant gyroscope by taking the l2 norm of gyro_x, gyro_y and gyro_z.
+  
+- Speed-based features
+
+- Bearing-based features
+  
+
+
 
 ## Model building
 
