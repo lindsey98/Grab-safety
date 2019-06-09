@@ -14,7 +14,7 @@ We aim to categorize car trips as being dangerous or normal based on a set of fe
 - Second : the time when the record is taken
 
 ## Data cleansing
-For bookingID with multiple labels, I treat them as dangerous(label = 1) because they are suspicious. They records who have speed larger than 200km/h (55.56 m/s) or negative values are removed because they are unrealistic, trips which last for more than 12 hours are also dropped because it is unlikely that a single trip can extend to 12 hours. Moreover, to ensure the accuracy of the readings, we only keep records who have accuracy less than 50 meters(more confident in the GPS readings). 
+For bookingID with multiple labels, I treat them as dangerous(label = 1) because they are suspicious. The records who have speed larger than 200km/h (55.56 m/s) or negative values are removed because they are unrealistic, trips which last for more than 12 hours are also dropped because it is unlikely that a single trip can extend to 12 hours. Moreover, to ensure the accuracy of the readings, we only keep records who have accuracy less than 50 meters(more confident in the GPS readings). 
 
 ## Feature extraction
 - Acceleration-based features:
