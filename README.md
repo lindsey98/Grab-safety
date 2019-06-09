@@ -22,12 +22,10 @@ For bookingID with multiple labels, I treat them as dangerous(label = 1) because
     I first calculate the resultant acceleration by taking the l2 norm of acc_x, acc_y and acc_z.
   
 - Gyroscope-based features:
-
-    I first calculate the resultant gyroscope by taking the l2 norm of gyro_x, gyro_y and gyro_z.
   
-- Speed-based features
+- Speed-based features:
 
-- Bearing-based features
+- Bearing-based features:
   
 
 
