@@ -19,7 +19,7 @@ For bookingID with multiple labels, I treat them as dangerous(label = 1) because
 ## Feature extraction
 - Acceleration-based features:
 
-    I first calculate the resultant acceleration by taking the l2 norm of acc_x, acc_y and acc_z.
+    I first calculate the resultant acceleration.
   
 - Gyroscope-based features:
   
