@@ -1,10 +1,10 @@
 # Grab-safety
 
-This project is for 2019 Grab AI challenge.
+&nbsp;&nbsp;&nbsp;This project is for 2019 Grab AI challenge.
 
 ## Problem description
 
-We aim to categorize car trips as being dangerous or normal based on a set of features:
+&nbsp;&nbsp;&nbsp;We aim to categorize car trips as being dangerous or normal based on a set of features:
 - Accuracy : the accuracy of GPS
 - Bearing : Bearing is the direction to the destination or target. It is different from Heading(measures the exact direction the car is heading), so the change in bearing cannot be used to compute the number of turns in a route.
 - Acceleration_x : the acceleration on x axis, this will control the rotational acceleration.
@@ -32,11 +32,13 @@ We aim to categorize car trips as being dangerous or normal based on a set of fe
 
 ## Feature extraction
 
-For each trip, the time series of acceleration, speed, gyroscope are first smoothed out by implementing moving average with window size = 5, this is to denoise data and avoid random fluctuation. Then, features are extracted as following:
+&nbsp;&nbsp;&nbsp;Some previous work have been using signal-based features(Fourier transformation to get the highest FFT; PAR; SVM; DSVM etc.). But their data are continuously collected every fixed interval of time, but in this real-life dataset, the records may not be available for every second in a trip and they are missing at random position. Thus, using signal-based techniques may not be very fruitful. 
+
+&nbsp;&nbsp;&nbsp;For each trip, the time series of acceleration, speed, gyroscope are first smoothed out by implementing moving average with window size = 5, this is to denoise data and avoid random fluctuation. Then, features are extracted as following:
 
 - Acceleration-based features:
 
-    I first calculate the resultant acceleration.
+&nbsp;&nbsp;&nbsp;&nbsp;I first calculate the resultant acceleration.
   
 - Gyroscope-based features:
   
