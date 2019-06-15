@@ -83,6 +83,8 @@ Since tree-based models usually outperform the traditional machine learning mode
 
 2.For model testing, please first import your testing dataset into [*safety_test.ipynb*](master/safety_test.ipynb) and extract corresponding features and save it to a dataframe, then import the model you have trained on the full training dataset.
 
+**Please change all the file directories to your own directories.**
+
 ## References
 
 *1. Lu, D.N.; Nguyen, D.N.; Nguyen, T.H.; Nguyen, H.N. Vehicle Mode and Driving Activity Detection Based
