@@ -30,6 +30,8 @@
 
 * Finally, trips who have less than 60 records(namely insufficient data points) are removed.
 
+*Note: I have renamed the dataset "part0-..""part1-.."  to part1.csv,part2.csv,part3.csv...part10.csv, and the label dataset is renamed as label.csv*
+
 ## Feature extraction
 
 &nbsp;&nbsp;&nbsp;Some previous work have been using signal-based features(Fourier transformation to get the highest FFT; PAR; SVM; DSVM etc.). But their data are continuously collected every fixed interval of time, but in this real-life dataset, the records may not be available for every second in a trip and they are missing at random position. Thus, using signal-based techniques may not be very fruitful. 
