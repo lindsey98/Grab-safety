@@ -79,9 +79,9 @@ Since tree-based models usually outperform the traditional machine learning mode
 
 ## Instructions
 
-1.Please first run [*safety_data_cleaning.ipynb*](https://github.com/lindsey98/Grab-safety/blob/master/Safety_data_cleansing.ipynb) and output the extracted raw dataframe, then run [*safety_feature.ipynb*](https://github.com/lindsey98/Grab-safety/blob/master/safety_feature_engineering.ipynb) to extract the features and output the df_feature in a csv file, finally run [*safety_training.ipynb*](https://github.com/lindsey98/Grab-safety/blob/master/Safety_training.ipynb) to train the model, you can save your model for future use.
+1.Please first run [*safety_data_cleaning.ipynb*](https://github.com/lindsey98/Grab-safety/blob/master/Safety_data_cleansing.ipynb) and output the extracted raw dataframe, then run [*safety_feature.ipynb*](https://github.com/lindsey98/Grab-safety/blob/master/safety_feature_engineering.ipynb) to extract the features and output the df_feature in a csv file, finally run [*safety_training.ipynb*](https://github.com/lindsey98/Grab-safety/blob/master/Safety_training.ipynb) to train the model, you can save your model for future use. Alternatively, you can directing use [*df_feature.csv*](https://github.com/lindsey98/Grab-safety/blob/master/df_feature.csv) file and run [*safety_training.ipynb*](https://github.com/lindsey98/Grab-safety/blob/master/Safety_training.ipynb) to train the model. 
 
-2. For model testing, please first import your testing dataset into [*safety_test.ipynb*](master/safety_test.ipynb) and extract corresponding features and save it to a dataframe, then import the model you have trained on the full training dataset.
+2.For model testing, please first import your testing dataset into [*safety_test.ipynb*](master/safety_test.ipynb) and extract corresponding features and save it to a dataframe, then import the model you have trained on the full training dataset.
 
 ## References
 
