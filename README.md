@@ -60,16 +60,17 @@
 
 - Distance: Integration of Speed over time (total distance)
 
-- Rad_dist: Integration of Result_gyro over time (total rotation angle)
+- Rad_dist: Integration of absolute Result_gyro over time (total rotation angle)
 
 - Trip_len: The last timestamp for the trip (total time)
 
-- Rotation_x_dist: Integration of gyro_x (total rotation angle about x axis)
+- Rotation_x_dist: Integration of absolute gyro_x (total rotation angle about x axis)
 
-- Rotation_y_dist: Integration of gyro_y (total rotation angle about y axis)
+- Rotation_y_dist: Integration of absolute gyro_y (total rotation angle about y axis)
 
+- Rotation_z_dist: Integration of absolute gyro_z (total rotation angle about z axis)
 
-
+*Note: we use integration of absolute value to avoid positive&negative integral cancellation.*
 
 ## Model building
 
