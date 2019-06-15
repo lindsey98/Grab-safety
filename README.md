@@ -72,7 +72,7 @@
 
 - Rotation_z_dist: Integration of absolute gyro_z (total rotation angle about z axis)
 
-*Note: we use integration of absolute value to avoid positive&negative integral cancellation.*
+*Note: I use integration of absolute value to avoid positive&negative integral cancellation.*
 
 ## Model building
 
