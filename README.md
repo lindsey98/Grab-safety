@@ -79,11 +79,9 @@ Since tree-based models usually outperform the traditional machine learning mode
 
 ## Instructions
 
-1. If you want to validate the results, you can first run *safety_data_cleaning.ipynb* and extract the raw dataframe, then run *safety_feature.ipynb* to extract the features and output the df_feature in a csv file, finally run *safety_training.ipynb* to train the model, you can save your model for future use.
+1.Please first run [*safety_data_cleaning.ipynb*](docs/safety_data_cleaning.ipynb) and output the extracted raw dataframe, then run [*safety_feature.ipynb*](docs/safety_feature.ipynb) to extract the features and output the df_feature in a csv file, finally run [*safety_training.ipynb*](docs/safety_training.ipynb) to train the model, you can save your model for future use.
 
-2. You are free to skip the data_cleaning and feature_engineering notebook and directly jump to *safety_training.ipynb* using df_feature.csv as input which has been uploaded to this repository.
-
-3. For model testing, please first import your testing dataset and extract corresponding features and save it to a dataframe, then import the model you have trained on the full training dataset.
+2. For model testing, please first import your testing dataset into [*safety_test.ipynb*](docs/safety_test.ipynb) and extract corresponding features and save it to a dataframe, then import the model you have trained on the full training dataset.
 
 ## References
 
