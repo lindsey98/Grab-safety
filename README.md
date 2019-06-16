@@ -90,6 +90,8 @@ Since tree-based models usually outperform the traditional machine learning mode
 
 ## References
 
+&nbsp;&nbsp;&nbsp; In these papers, the goal is to classify the vehicle mode(car,walk,train,bus). But we can still borrow the ideas from them. 
+
 *1. Lu, D.N.; Nguyen, D.N.; Nguyen, T.H.; Nguyen, H.N. Vehicle Mode and Driving Activity Detection Based
 on Analyzing Sensor Data of Smartphones. Sensors 2018, 18, 1036. [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5948751/#B43-sensors-18-01036](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5948751/#B43-sensors-18-01036)*
 
