@@ -56,7 +56,7 @@
 
 5. **Rotation-based features:**
 
-- According to [1], the instant rotation angle about x-axis and y-axis can be approximated using acc_x , acc_y and acc_z, and the rotation angle phi, theta are summarized by maximum value, maximum value in difference. 
+- According to [1], the instant rotation angle about x-axis and y-axis can be approximated using acc_x , acc_y and acc_z, and the rotation angle phi, theta are summarized by maximum value, maximum value in difference. It doesn't matter if division by zero error encountered in the code, because arctan function can take in value of Inf.
 
 6. **Other features:**
 
